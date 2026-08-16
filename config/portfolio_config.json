@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "name": "vidarabine_hybrid_rag_public_portfolio",
+    "public_corpus_mode": "synthetic_demo_only"
+  },
+  "retrieval": {
+    "method": "weighted_reciprocal_rank_fusion",
+    "vector_backend": "portable",
+    "portable_dimensions": 1024,
+    "rrf_k": 60,
+    "keyword_weight": 1.0,
+    "vector_weight": 1.0,
+    "candidate_top_n_per_method": 10,
+    "top_k": 5,
+    "minimum_keyword_score": 4.0,
+    "minimum_vector_similarity": 0.15
+  },
+  "ollama": {
+    "base_url": "http://127.0.0.1:11434/api",
+    "embedding_model": "embeddinggemma:300m-qat-q8_0",
+    "answer_model": "qwen3:1.7b",
+    "request_timeout_seconds": 300,
+    "temperature": 0.1
+  },
+  "answer": {
+    "maximum_evidence_items": 3
+  }
+}

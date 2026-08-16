@@ -1,0 +1,5 @@
+{"id":"SYN-001","title":"合成資料：対象範囲","section":"scope","text":"この公開サンプルは、仮想成分Vを使って検索処理だけを検証するための合成データである。ビダラビンの実際の医療情報ではない。","keywords":["合成データ","対象範囲","仮想成分V"],"synthetic":true,"source_label":"author-created synthetic demo"}
+{"id":"SYN-002","title":"合成資料：製品一覧","section":"products","text":"仮想成分Vのデモ製品として、デモ注射剤Vとデモ外用剤Vを収録する。名称は検索・剤形分岐を試すための架空表現である。","keywords":["製品一覧","注射剤","外用剤","仮想成分V"],"synthetic":true,"source_label":"author-created synthetic demo"}
+{"id":"SYN-003","title":"合成資料：注射剤の注意","section":"injection_warning","text":"デモ注射剤Vの説明には、仮想薬Aとの組合せを注意対象として記録する。この記述は安全ゲートと相互作用検索の試験用であり、臨床上の意味を持たない。","keywords":["デモ注射剤V","仮想薬A","組合せ","注意"],"synthetic":true,"source_label":"author-created synthetic demo"}
+{"id":"SYN-004","title":"合成資料：外用剤の注意","section":"topical_warning","text":"デモ外用剤Vの説明には、仮想薬Bとの組合せを注意対象として記録する。注射剤の記述と混同しないことを検索試験で確認する。","keywords":["デモ外用剤V","仮想薬B","組合せ","注意"],"synthetic":true,"source_label":"author-created synthetic demo"}
+{"id":"SYN-005","title":"合成資料：更新情報","section":"currency","text":"合成データの基準日は2026年8月16日である。最新情報への追随機能は公開デモに含まれず、最新性を尋ねられた場合は警告を表示する。","keywords":["基準日","最新情報","警告"],"synthetic":true,"source_label":"author-created synthetic demo"}

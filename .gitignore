@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.tmp
+*.log
+.venv/
+venv/
+.env
+.env.*
+data/private/
+data/raw/
+data/cleaned/
+data/structured/
+embeddings/
+rag_runs/
+*.zip

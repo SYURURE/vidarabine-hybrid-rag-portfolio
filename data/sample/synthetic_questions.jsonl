@@ -1,0 +1,5 @@
+{"id":"D001","question":"仮想成分Vのデモ製品にはどんな剤形がある？","expected_source_ids":["SYN-002"]}
+{"id":"D002","question":"デモ注射剤Vと仮想薬Aの組合せについて教えて","expected_source_ids":["SYN-003"]}
+{"id":"D003","question":"デモ外用剤Vと仮想薬Bの注意は？","expected_source_ids":["SYN-004"]}
+{"id":"D004","question":"このサンプルは実際のビダラビン医療情報？","expected_source_ids":["SYN-001"]}
+{"id":"D005","question":"量子コンピューターの誤り訂正方式を説明して","expected_source_ids":[],"blocked_expected":true}
